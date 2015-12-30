@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	background-color: white;
+	font-family: Arial;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	color: #999; 
+}
+.link {
+	border-bottom: 1px solid red;
+}
+.acordion {
+	width: 100%;
+	max-width: 350px;
+	margin: 60px auto 20px;
+	background-color: white;
+}
+.acordion .link {
+	cursor: pointer;
+	font-weight: 900;
+	display: block;
+	padding: 12px 12px 12px 40px;
+	font-size: 12px;
+	position: relative;
+	-webkit-transition: all 0.4s easy;
+	-o-transition: all 0.4s easy;
+	-moz-transition: all 0.4s easy;
+	transition: all 0.4s easy;
+}
+.acordion .link:last-child .link {
+	border-bottom: 0;
+}
+.acordion li i {
+	position: absolute;
+	top: 12px;
+	left: 16px;
+	font-size: 18px;
+	color: #777;
+	-webkit-transition: all 0.4s easy;
+	-o-transition: all 0.4s easy;
+	-moz-transition: all 0.4s easy;
+	transition: all 0.4s easy;
+}
+.acordion li i.fa-chevron-down {
+	right: 12px;
+	left: auto;
+	font-weight: 16px;
+}
+.acordion li.open .link {
+	color: white;
+	background-color: #FFA040;
+}
+.acordion li.open i {
+	color: white;
+}
+.acordion li.open i.fa-chevron-down {
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.submenu {
+	display: none;
+	background-color: #AAA;
+	font-size: 14px;
+}
+.submenu li {
+	border-bottom: 1px solid #000;
+}
+.submenu a {
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+	padding: 12px;
+	padding-left: 42px;	
+	-webkit-transition: all 0.4s easy;
+	-o-transition: all 0.4 easy;
+	-moz-transition: all 0.4s easy;
+	transition: all 0.4s easy;
+}
+.submenu a:hover {
+	background-color: #CCC;
+	color: 000;
+}
+.active-submenu {
+	background-color: #BD809E;
+}
+div#seccion-contenido div#bienvenidos {
+	padding-top: 15%;
+	width: 100%;
+	text-align: center;
+}
+div#bienvenidos h2 {
+	font-size: 60px;
+	text-shadow: 0px 0px 5px #FFF;
+}
+div#logo-bienvenida img {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}

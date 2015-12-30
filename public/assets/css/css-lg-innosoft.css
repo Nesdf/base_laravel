@@ -1,0 +1,91 @@
+@media screen and (min-width: 400px) and (max-width: 1199px){
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		background-color: white;
+	}
+	div#disenio-body > div {
+		display: inline-block;
+		float:  left;
+	}
+	div#seccion-menu {
+		width: 100%;
+		height: 100%;
+		max-width: 22%;
+	}
+	div#seccion-contenido {
+		box-shadow: 0px 5px 5px #000;
+		background-color: #ccc;
+		width: 100%;
+		height: 100%;
+		max-width: 78%;
+		height: 667px;
+	}
+	div#logotipo {
+		position: absolute;
+		top: 20px;
+		left: 50px;
+		font-size: 20px;
+		color: #FF8000;
+	}
+	div.title-montage ul {
+		list-style-type: none;		
+		padding-bottom: 10px;
+	}
+	div.title-montage ul li {
+		padding-left: 15px;
+		display: inline-block;
+		float: left;
+	}
+	label {
+		color: #1C5072;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		background-color: white;
+	}
+	div#disenio-body > div {
+		display: inline-block;
+		float:  left;
+	}
+	div#seccion-menu {
+		width: 100%;
+		height: 100%;
+		max-width: 18%;
+	}
+	div#seccion-contenido {
+		box-shadow: 0px 5px 5px #000;
+		background-color: #ccc;
+		width: 100%;
+		height: 100%;
+		max-width: 82%;
+		height: 667px;
+	}
+	div#logotipo {
+		position: absolute;
+		top: 20px;
+		left: 50px;
+		font-size: 20px;
+		color: #FF8000;
+	}
+	div.title-montage ul {
+		list-style-type: none;		
+		padding-bottom: 10px;
+	}
+	div.title-montage ul li {
+		padding-left: 15px;
+		display: inline-block;
+		float: left;
+	}
+	label {
+		color: #1C5072;
+	}
+}

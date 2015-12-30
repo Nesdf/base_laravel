@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #E7E7E7;
+}
+div#logo-bienvenida {
+	width: 100%;
+}
+div#logo-bienvenida img {
+	width: 100%;
+}
+div#ventana { 
+	width: 100%;
+}
+div#ventana-acceso { 
+	padding-top: 7%;
+	width: 500px;
+	margin: 0 auto;
+}
